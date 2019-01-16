@@ -14,13 +14,7 @@ Same as original, allows to set accessibility label. Following props are availab
 ## Install
 
 ```bash
-npm install react-native-datepicker --save
-```
-
-Or using [react-native-ui-xg](https://github.com/xgfe/react-native-ui-xg), our react-naitve ui kit.
-
-```bash
-npm install react-native-ui-xg --save
+npm i react-native-accessible-datepicker
 ```
 
 ## Example
