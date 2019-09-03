@@ -358,6 +358,7 @@ class DatePicker extends Component {
         style={[Style.dateTouch, style]}
         underlayColor={'transparent'}
         onPress={this.onPressDate}
+        accessible={false}
         testID={testID}
         accessibilityLabel={accessibilityLabel}
       >
@@ -386,10 +387,12 @@ class DatePicker extends Component {
                 activeOpacity={1}
                 underlayColor={'#00000077'}
                 onPress={this.onPressMask}
+                accessible={false}
               >
                 <TouchableComponent
                   underlayColor={'#fff'}
                   style={{flex: 1}}
+                  accessible={false}
                 >
                   <Animated.View
                     style={[Style.datePickerCon, {height: this.state.animatedHeight}, customStyles.datePickerCon]}
@@ -411,6 +414,7 @@ class DatePicker extends Component {
                       underlayColor={'transparent'}
                       onPress={this.onPressCancel}
                       style={[Style.btnText, Style.btnCancel, customStyles.btnCancel]}
+                      accessible={true}
                       testID={cancelBtnTestID}
                       accessibilityLabel={cancelBtnAccessibilityLabel}
                     >
@@ -425,6 +429,7 @@ class DatePicker extends Component {
                       underlayColor={'transparent'}
                       onPress={this.onPressConfirm}
                       style={[Style.btnText, Style.btnConfirm, customStyles.btnConfirm]}
+                      accessible={true}
                       testID={confirmBtnTestID}
                       accessibilityLabel={confirmBtnAccessibilityLabel}
                     >

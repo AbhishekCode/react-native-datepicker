@@ -1,6 +1,6 @@
 {
   "name": "react-native-accessible-datepicker",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "React Native accessible DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and DatePickerIOS",
   "main": "datepicker.js",
   "scripts": {
